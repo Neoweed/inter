@@ -13,7 +13,7 @@ pipeline {
       }
 
       }
-    stage('Build and push docker images') 
+    stage('Run and deploy Contrast') 
       {
               steps {
                 sh 'docker run --rm -p 8080:8080 -t iast'
