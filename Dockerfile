@@ -1,6 +1,6 @@
 FROM anapsix/alpine-java:jdk8
 
-# TODO Edit the following 3 lines and substitute the keys from your Contrast Security Your Account page
+
 
 ENV OrgID=481e2f0e-ade1-4932-a302-80e24b352541
 
@@ -8,7 +8,7 @@ ENV Auth=YWtoaWwxNTk3NTMxMjNAZ21haWwuY29tOkg2NkFYUjY2Q1UwT1IzOUg=
 
 ENV APIKey=tCwxz8bLACPq3RHL6Jh5p1Y7y13l35ZE
 
-# End TODO
+
 
 ENV CONTRAST__BASEURL=https://ce.contrastsecurity.com/Contrast/api/ng/$OrgID
 
